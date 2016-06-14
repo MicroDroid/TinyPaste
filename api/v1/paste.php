@@ -7,7 +7,7 @@ if ($_POST["code"]) {
 		$filename = rtrim(strtr(base64_encode(generateRandomString($filelength)), "+/", "-_"), "=");
 	} while (file_exists($filename));
 	
-	$f = fopen(basename(basename(__DIR__)) . "pastes/" . $filename, "w");
+	$f = fopen(dirname(dirname(__DIR__)) . "/pastes/" . $filename, "w");
 	fwrite($f, $_POST["code"]);
 	fclose($f);
 
