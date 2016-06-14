@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>NanoPaste</title>
+	<title>TinyPaste - API</title>
 	<?php require_once("res/components/default_header.php"); ?>
 	<style>
 		body {
