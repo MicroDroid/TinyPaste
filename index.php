@@ -174,7 +174,7 @@
 <textarea class="form-control" id="code" placeholder="Code here" autofocus></textarea>
 <button class="btn btn-primary" id="paste-btn" onclick="paste()">Paste</button>
 
-<div class="hidden" id="loading">
+<div class="hidden spinner" id="loading">
   <div class="bounce1"></div>
   <div class="bounce2"></div>
   <div class="bounce3"></div>
